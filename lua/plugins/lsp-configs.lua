@@ -24,7 +24,7 @@ return {
 			lspconfig.tsserver.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.omnisharp.setup({
+			lspconfig.csharp_ls.setup({
 				capabilities = capabilities,
 			})
 			lspconfig.rust_analyzer.setup({
