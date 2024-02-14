@@ -21,7 +21,6 @@
 - **treesitter**: [Repository](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ### Interface Improvement
-- **dadbod**: [Repository](https://github.com/tpope/vim-dadbod)
 - **dashboard**: [Repository](https://github.com/nvimdev/dashboard-nvim)
 - **lualine**: [Repository](https://github.com/nvim-lualine/lualine.nvim)
 - **oil**: [Repository](https://github.com/stevearc/oil.nvim)
@@ -32,3 +31,5 @@
 - **copilot**: [Repository](https://github.com/github/copilot.vim)
 - **ng**: [Repository](https://github.com/joeveiga/ng.nvim)
 - **telescope**: [Repository](https://github.com/nvim-telescope/telescope.nvim)
+- - **dadbod**: [Repository](https://github.com/tpope/vim-dadbod)
+  - **lazygit**: [Repository}(https://github.com/kdheepak/lazygit.nvim)
