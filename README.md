@@ -31,5 +31,5 @@
 - **copilot**: [Repository](https://github.com/github/copilot.vim)
 - **ng**: [Repository](https://github.com/joeveiga/ng.nvim)
 - **telescope**: [Repository](https://github.com/nvim-telescope/telescope.nvim)
-- - **dadbod**: [Repository](https://github.com/tpope/vim-dadbod)
-  - **lazygit**: [Repository}(https://github.com/kdheepak/lazygit.nvim)
+- **dadbod**: [Repository](https://github.com/tpope/vim-dadbod)
+- **lazygit**: [Repository}(https://github.com/kdheepak/lazygit.nvim)
