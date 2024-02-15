@@ -25,6 +25,7 @@
 - **lualine**: [Repository](https://github.com/nvim-lualine/lualine.nvim)
 - **oil**: [Repository](https://github.com/stevearc/oil.nvim)
 - **toggleterm**: [Repository](https://github.com/akinsho/toggleterm.nvim)
+- **barbar**: [Repository](https://github.com/romgrk/barbar.nvim)
 
 ### Development and Productivity
 - **neotree**: [Repository](https://github.com/nvim-neo-tree/neo-tree.nvim)
