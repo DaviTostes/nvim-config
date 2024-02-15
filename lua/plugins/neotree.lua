@@ -21,13 +21,9 @@ return {
           hide_dotfiles = false,
           hide_gitignored = false,
         },
-
-        follow_current_file = {
-          enabled = true
-        }
       }
     })
     vim.keymap.set({ 'n', 'v' }, '<C-n>', ':Neotree<CR>', {})
-    vim.keymap.set({ 'n', 'v' }, '<esc>', ':Neotree close<CR>', {})
+    vim.keymap.set({ 'n', 'v' }, '<leader>nc', ':Neotree close<CR>', {})
   end
 }
