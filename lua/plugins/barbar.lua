@@ -10,5 +10,6 @@ return {
 	version = "^1.0.0",
 
   vim.keymap.set('n', '-', ':BufferPrevious<CR>'),
-  vim.keymap.set('n', '=', ':BufferNext<CR>')
+  vim.keymap.set('n', '=', ':BufferNext<CR>'),
+  vim.keymap.set('n', '<leader><esc>', ':BufferClose<CR>')
 }

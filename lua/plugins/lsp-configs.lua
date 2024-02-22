@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "csharp_ls", "angularls" },
+				ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "csharp_ls", "angularls", "gopls" },
 			})
 		end,
 	},
@@ -31,6 +31,9 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.angularls.setup({
+				capabilities = capabilities,
+			})
+      lspconfig.gopls.setup({
 				capabilities = capabilities,
 			})
 
