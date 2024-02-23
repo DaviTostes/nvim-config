@@ -34,3 +34,4 @@
 - **telescope**: [Repository](https://github.com/nvim-telescope/telescope.nvim)
 - **dadbod**: [Repository](https://github.com/tpope/vim-dadbod)
 - **lazygit**: [Repository](https://github.com/kdheepak/lazygit.nvim)
+- **project**: [Repository](https://github.com/ahmedkhalf/project.nvim)
