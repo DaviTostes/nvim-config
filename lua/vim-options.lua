@@ -6,3 +6,4 @@ vim.cmd("syntax enable")
 vim.g.mapleader = " "
 vim.opt.number = true
 vim.api.nvim_set_option("clipboard","unnamedplus")
+vim.keymap.set("n", "<C-s>", ":w<CR>", {})
