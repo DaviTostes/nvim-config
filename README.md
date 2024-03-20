@@ -36,3 +36,4 @@
 - **lazygit**: [Repository](https://github.com/kdheepak/lazygit.nvim)
 - **project**: [Repository](https://github.com/ahmedkhalf/project.nvim)
 - **comment**: [Repository](https://github.com/numToStr/Comment.nvim)
+- **multicursors**: [Repository](https://github.com/smoka7/multicursors.nvim)
