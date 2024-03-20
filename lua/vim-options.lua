@@ -5,5 +5,5 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("syntax enable")
 vim.g.mapleader = " "
 vim.opt.number = true
+vim.opt.swapfile = false
 vim.api.nvim_set_option("clipboard","unnamedplus")
-vim.keymap.set("n", "<C-s>", ":w<CR>", {})

@@ -23,7 +23,7 @@ return {
         },
       }
     })
-    vim.keymap.set({ 'n', 'v' }, '<C-n>', ':Neotree<CR>', {})
+    vim.keymap.set({ 'n', 'v' }, '<leader>n', ':Neotree<CR>', {})
     vim.keymap.set({ 'n', 'v' }, '<leader>nc', ':Neotree close<CR>', {})
   end
 }

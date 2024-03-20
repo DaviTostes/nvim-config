@@ -15,3 +15,4 @@ require("vim-options")
 require("lazy").setup("plugins")
 
 
+vim.loader.enable()
