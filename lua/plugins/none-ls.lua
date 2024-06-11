@@ -8,6 +8,7 @@ return {
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.formatting.csharpier,
         null_ls.builtins.formatting.golines,
+        null_ls.builtins.formatting.pretty_php,
       },
     })
 
