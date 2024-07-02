@@ -37,3 +37,4 @@
 - **project**: [Repository](https://github.com/ahmedkhalf/project.nvim)
 - **comment**: [Repository](https://github.com/numToStr/Comment.nvim)
 - **multicursors**: [Repository](https://github.com/smoka7/multicursors.nvim)
+- **vim-rest-console**: [Repository](https://github.com/diepm/vim-rest-console)
