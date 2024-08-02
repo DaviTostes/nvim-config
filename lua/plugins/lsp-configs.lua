@@ -18,6 +18,7 @@ return {
 					"gopls",
 					"bufls",
 					"phpactor",
+          "nil_ls"
 				},
 			})
 		end,
@@ -46,6 +47,9 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.phpactor.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.nil_ls.setup({
 				capabilities = capabilities,
 			})
 

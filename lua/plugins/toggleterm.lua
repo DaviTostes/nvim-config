@@ -22,7 +22,7 @@ return {
 				if input ~= "" then
 					Terminal:new({
 						display_name = input,
-						cmd = "/bin/bash",
+						cmd = "run/current-system/sw/bin/bash",
 						direction = "float",
 					}):toggle()
 				else
