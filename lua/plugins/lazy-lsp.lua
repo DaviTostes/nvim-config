@@ -2,7 +2,7 @@ return {
   "dundalek/lazy-lsp.nvim",
   dependencies = {
     "neovim/nvim-lspconfig",
-    {"VonHeikemen/lsp-zero.nvim", branch = "v3.x"},
+    { "VonHeikemen/lsp-zero.nvim", branch = "v3.x" },
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-cmp",
   },
@@ -19,8 +19,13 @@ return {
 
     require("lazy-lsp").setup {
       excluded_servers = {
-        "omnisharp"
-      }
+        "omnisharp",
+        "ltex"
+      },
+      preferred_servers = {
+        php = { "intelephense" }
+      },
+      prefer_local = true,
     }
-  end
+  end,
 }

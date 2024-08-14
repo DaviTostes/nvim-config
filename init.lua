@@ -14,5 +14,11 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
-
 vim.loader.enable()
+
+vim.api.nvim_create_autocmd("BufRead", {
+  pattern = "*.php",
+  callback = function()
+    vim.bo.filetype = "php.html"
+  end
+})
